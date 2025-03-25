@@ -1,0 +1,48 @@
+/* Universal Selector */
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+/* Class Selector for the heading */
+.main-title {
+    font-size: 30px; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #2a9d8f; 
+    margin-bottom: 20px; 
+    border-bottom: 3px solid #2a9d8f;
+    padding-bottom: 10px; 
+}
+
+/* Class Selector for the paragraph */
+.content-text {
+    font-size: 18px; 
+    line-height: 1.6; 
+    text-align: justify; 
+    color: #333; 
+    margin: 20px 0; 
+    padding: 15px; 
+    background-color: #ffffff; 
+    border: 2px solid #2a9d8f; 
+    border-radius: 8px; 
+}
+
+/* ID Selector for the image */
+#styled-image {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin: 20px auto; 
+    border: 5px solid #2a9d8f; 
+    border-radius: 10px;
+}
+
+/* Class Selector for footer text */
+.footer-text {
+    text-align: center; 
+    color: #777; 
+    font-size: 14px; 
+    margin-top: 30px; 
+}
